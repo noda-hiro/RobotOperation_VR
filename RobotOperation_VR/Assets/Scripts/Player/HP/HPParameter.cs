@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 
-[CreateAssetMenu(menuName = "MyParam/CreateParam",fileName = "paramFile")]
+[CreateAssetMenu(menuName = "MyParam/HPParam",fileName = "paramFile")]
 public class HPParameter : ScriptableObject
 {
     [SerializeField]
