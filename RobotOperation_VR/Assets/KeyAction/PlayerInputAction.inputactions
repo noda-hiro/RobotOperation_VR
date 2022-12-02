@@ -1,0 +1,66 @@
+{
+    "name": "PlayerInputAction",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "10548863-7931-47b7-96ee-c8893f6481b8",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "c928523d-d04e-4282-bcca-d2e4f9a9ffe0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8439d170-380b-4517-80c6-31e552fb4db9",
+                    "path": "<Joystick>/stick/up",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "77b9213a-0dc7-4285-815c-404c0d311355",
+                    "path": "<Joystick>/stick/down",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "627d0ae0-9558-4bff-a3a7-de1616592c5d",
+                    "path": "<Joystick>/stick/right",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f1723dee-6fbf-4a4c-a54b-d3b44f69ad33",
+                    "path": "<Joystick>/stick/left",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
